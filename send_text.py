@@ -7,7 +7,7 @@ client = TwilioRestClient(account_sid, auth_token)
 
 message = client.messages.create(
     body="Hey, it's me! Testing my program!",
-    to="+17246813724",    # Replace with your phone number
+    to="Phone Number here",    # Replace with your phone number
     from_="+14127443250") # Replace with your Twilio number
 
 print(message.sid)
